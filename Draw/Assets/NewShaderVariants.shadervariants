@@ -1,0 +1,405 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NewShaderVariants
+  m_Shaders:
+  - first: {fileID: 64, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS SHADOWS_DEPTH SHADOWS_SPLIT_SPHERES SOFTPARTICLES_ON
+        passType: 0
+  - first: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS SOFTPARTICLES_ON
+        passType: 0
+  - first: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS SOFTPARTICLES_ON
+        passType: 0
+  - first: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL LIGHTPROBE_SH UNITY_HDR_ON
+          _EMISSION _EMISSIONMAP _LIGHTMAPPING_DYNAMIC_LIGHTMAPS _LIGHTMAPPING_REALTIME
+          _UVSEC_UV1
+        passType: 4
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL UNITY_HDR_ON _EMISSION _EMISSIONMAP
+          _LIGHTMAPPING_DYNAMIC_LIGHTMAPS _LIGHTMAPPING_REALTIME _UVSEC_UV1
+        passType: 5
+      - keywords: _EMISSION _EMISSIONMAP _LIGHTMAPPING_DYNAMIC_LIGHTMAPS _LIGHTMAPPING_REALTIME
+          _UVSEC_UV1
+        passType: 8
+  - first: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _EMISSION
+        passType: 4
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN
+          SHADOWS_SOFT SHADOWS_SPLIT_SPHERES SOFTPARTICLES_ON
+        passType: 4
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL LIGHTPROBE_SH UNITY_HDR_ON
+        passType: 4
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL LIGHTPROBE_SH UNITY_HDR_ON
+          _EMISSION
+        passType: 4
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL LIGHTPROBE_SH S_RECEIVE_SHADOWS
+          S_SPECULAR_METALLIC UNITY_HDR_ON _EMISSION
+        passType: 4
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL LIGHTPROBE_SH UNITY_HDR_ON
+          _ALPHABLEND_ON
+        passType: 4
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL LIGHTPROBE_SH UNITY_HDR_ON
+          _ALPHABLEND_ON _EMISSION
+        passType: 4
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL LIGHTPROBE_SH UNITY_HDR_ON
+          _ALPHAPREMULTIPLY_ON
+        passType: 4
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL LIGHTPROBE_SH S_OCCLUSION
+          S_RECEIVE_SHADOWS S_SPECULAR_METALLIC UNITY_HDR_ON _EMISSION _METALLICGLOSSMAP
+          _NORMALMAP
+        passType: 4
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL LIGHTPROBE_SH UNITY_HDR_ON
+          _EMISSION _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 5
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL UNITY_HDR_ON
+        passType: 5
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL UNITY_HDR_ON _EMISSION
+        passType: 5
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL S_RECEIVE_SHADOWS S_SPECULAR_METALLIC
+          UNITY_HDR_ON _EMISSION
+        passType: 5
+      - keywords: DIRECTIONAL _ALPHABLEND_ON
+        passType: 5
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL UNITY_HDR_ON _ALPHABLEND_ON
+          _EMISSION
+        passType: 5
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL UNITY_HDR_ON _ALPHAPREMULTIPLY_ON
+        passType: 5
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL S_OCCLUSION S_RECEIVE_SHADOWS
+          S_SPECULAR_METALLIC UNITY_HDR_ON _EMISSION _METALLICGLOSSMAP _NORMALMAP
+        passType: 5
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL UNITY_HDR_ON _EMISSION _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 5
+      - keywords: 
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: _EMISSION
+        passType: 8
+      - keywords: S_RECEIVE_SHADOWS S_SPECULAR_METALLIC _EMISSION
+        passType: 8
+      - keywords: SHADOWS_DEPTH _ALPHABLEND_ON
+        passType: 8
+      - keywords: _ALPHABLEND_ON _EMISSION
+        passType: 8
+      - keywords: _ALPHAPREMULTIPLY_ON
+        passType: 8
+      - keywords: S_OCCLUSION S_RECEIVE_SHADOWS S_SPECULAR_METALLIC _EMISSION _METALLICGLOSSMAP
+          _NORMALMAP
+        passType: 8
+      - keywords: _EMISSION _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 8
+  - first: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: _SUNDISK_NONE
+        passType: 0
+      - keywords: _SUNDISK_SIMPLE
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS _SUNDISK_SIMPLE
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS SOFTPARTICLES_ON _SUNDISK_SIMPLE
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS SOFTPARTICLES_ON UNITY_HDR_ON _SUNDISK_SIMPLE
+        passType: 0
+  - first: {fileID: 200, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _ALPHAPREMULTIPLY_ON
+        passType: 0
+  - first: {fileID: 202, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON
+        passType: 0
+  - first: {fileID: 203, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _EMISSION
+        passType: 0
+  - first: {fileID: 9000, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9001, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9002, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9003, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9004, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9006, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9007, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10750, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _ALPHABLEND_ON
+        passType: 0
+  - first: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON
+        passType: 0
+  - first: {fileID: 10755, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON _EMISSION
+        passType: 0
+  - first: {fileID: 4800000, guid: 2ad7ce40f0dbaf64dadef1f58d8524d3, type: 3}
+    second:
+      variants:
+      - keywords: NEAREST_DEPTH
+        passType: 0
+  - first: {fileID: 4800000, guid: 3330c1503ea8c6d4d9408df3f64227eb, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: fd532bf1795188c4daaa66ea798b8b0a, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 8ea49ef16606acd489439e676ab84040, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 32f724728cf19904291226f239ec16f0, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 123ed592ad5c2494b8aed301fd609e7b, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: de053fb214897cc439db35fc0361a282, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 2e37131331fbdca449b1a2bc47a639ca, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 02ae56f4306413c4a96dcf005cde1971, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 3b3bf235775cf8b4baae7f3306787ab0, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 1d91a0457b4ab7a458a9eac79648a51b, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 787d7485aa6482341a9f55fa37fb84f1, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: cbf236a56414a174fbf17d405f7da98f, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 4800000, guid: 123f13d52852ef547b2962de4bd9eaad, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: a8384af5748503e4cb26191bdee4faa1, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _NORMALMAP_TANGENT_SPACE
+        passType: 8
+      - keywords: _BLENDMODE_ALPHA _BLENDMODE_PRESERVE_SPECULAR_LIGHTING _ENABLE_FOG_ON_TRANSPARENT
+          _NORMALMAP_TANGENT_SPACE _SURFACE_TYPE_TRANSPARENT
+        passType: 8
+      - keywords: 
+        passType: 12
+      - keywords: _NORMALMAP_TANGENT_SPACE
+        passType: 12
+      - keywords: 
+        passType: 13
+      - keywords: DECALS_3RT
+        passType: 13
+      - keywords: _NORMALMAP_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_3RT _NORMALMAP_TANGENT_SPACE
+        passType: 13
+      - keywords: DEBUG_DISPLAY DECALS_3RT _NORMALMAP_TANGENT_SPACE
+        passType: 13
+      - keywords: DEBUG_DISPLAY DECALS_3RT SHADOW_MEDIUM USE_CLUSTERED_LIGHTLIST
+          _NORMALMAP_TANGENT_SPACE
+        passType: 13
+      - keywords: _BLENDMODE_ALPHA _BLENDMODE_PRESERVE_SPECULAR_LIGHTING _ENABLE_FOG_ON_TRANSPARENT
+          _NORMALMAP_TANGENT_SPACE _SURFACE_TYPE_TRANSPARENT
+        passType: 13
+      - keywords: DECALS_3RT SHADOW_MEDIUM USE_CLUSTERED_LIGHTLIST _BLENDMODE_ALPHA
+          _BLENDMODE_PRESERVE_SPECULAR_LIGHTING _ENABLE_FOG_ON_TRANSPARENT _NORMALMAP_TANGENT_SPACE
+          _SURFACE_TYPE_TRANSPARENT
+        passType: 13
+      - keywords: DEBUG_DISPLAY DECALS_3RT SHADOW_MEDIUM USE_CLUSTERED_LIGHTLIST
+          _BLENDMODE_ALPHA _BLENDMODE_PRESERVE_SPECULAR_LIGHTING _ENABLE_FOG_ON_TRANSPARENT
+          _NORMALMAP_TANGENT_SPACE _SURFACE_TYPE_TRANSPARENT
+        passType: 13
+  - first: {fileID: 4800000, guid: 035941b63024d1943af48811c1db20d9, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: a6402c19b020b4a4fb7073aaa2e26aba, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 2fcfb8d92f45e4549b3f0bad5d0654bf, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: d279c46a545b0af4f9f0c4fa82cd489e, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 67d6171b0acc6554aad48c845ec7e67f, type: 3}
+    second:
+      variants:
+      - keywords: CHECKERBOARD_DOWNSAMPLE
+        passType: 0
+  - first: {fileID: 4800000, guid: 5ac9ef0c50282754b93c7692488e7ee7, type: 3}
+    second:
+      variants:
+      - keywords: APPLY_AFTER_POST
+        passType: 0
+  - first: {fileID: 4800000, guid: 9a0d8a7c6bde1d64cb8f6c2f81f3d5d5, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 370f7a9cc4e362d488af024d371091e8, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: BLIT_SINGLE_SLICE
+        passType: 0
+  - first: {fileID: 4800000, guid: 794f260d88f9fe74fa681fe5ab74a107, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 0c1cf10ea69e60e4f9eb8955749f88ec, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 4c84081e4523a5646919b30697cfccb8, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: eb607f5e8fc16e140b732f33d26c8c31, type: 3}
+    second:
+      variants:
+      - keywords: INSTANCING_ON _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 8
+  - first: {fileID: 4800000, guid: 9bd32a6ece529fd4f9408b8d7e00c10d, type: 3}
+    second:
+      variants:
+      - keywords: SHADOW_MEDIUM USE_FPTL_LIGHTLIST
+        passType: 0
+      - keywords: SHADOW_MEDIUM USE_CLUSTERED_LIGHTLIST
+        passType: 0
+  - first: {fileID: 4800000, guid: 6337aa7e7823eee43af8ffe676935e74, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: c4edd00ff2db5b24391a4fcb1762e459, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+  - first: {fileID: 4800000, guid: e3cab24f27741f44d8af1e94d006267c, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 42dfcc8fe803ece4096c58630689982f, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
